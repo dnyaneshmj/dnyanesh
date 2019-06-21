@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-padding {
-  padding: 60px 0px;
+  padding: 40px 0px;
 }
 
 #loader {
@@ -420,6 +420,7 @@ ul.service-list li i {
   z-index: 10;
   margin: -15px 0;
   padding: 40px 0;
+  background: #fff;
 }
 
 .portfolio-item figure figcaption {
@@ -452,7 +453,7 @@ ul.service-list li i {
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 59px 30px;
+  padding: 30px;
   background-color: #BE9E21;
   backface-visibility: hidden;
   -webkit-transform: rotateY(-180deg);
@@ -773,11 +774,38 @@ cta
   transition: all 0.5s ease-in 0s;
 }
 
-
-.hb img {
-    height: 25px;
+.hb {
+    margin: 25px 0;
 }
-
+.hb img {
+    height: 35px;
+}
+.progress-bar{
+  background-color: #be9e21;
+}
+.progress-bar-striped, .progress-striped .progress-bar{
+  background-image:none;
+}
+.hb h4 {
+    display: inline-block;
+    margin-left: 10px;
+}
+.btn.visit {
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-weight: 500;
+    color: #fff;
+    border: 0;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 7px 20px;
+    border-radius: 60px;
+    outline: none !important;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: all 0.3s;
+    border: 1px solid black;
+}
 /***********************************
 ************************************
 Responsive media queries
