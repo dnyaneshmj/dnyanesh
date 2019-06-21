@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-padding {
-  padding: 40px 0px;
+  padding: 100px 0px;
 }
 
 #loader {
@@ -493,7 +493,6 @@ TESTIMONIAL
 #testimonial {
   background: url('../img/bg.jpg') no-repeat;
   background-size: cover;
-  min-height: 390px;
 }
 
 .bg-testicolor {
@@ -805,6 +804,19 @@ cta
     backface-visibility: hidden;
     transition: all 0.3s;
     border: 1px solid black;
+}
+
+.social a span {
+    font-size: 40px;
+    color: #be9e21;
+}
+
+.social_contact {
+    padding: 70px 0;
+    margin: 0;
+}
+.social_contact li{
+  margin: 0 5px;
 }
 /***********************************
 ************************************
