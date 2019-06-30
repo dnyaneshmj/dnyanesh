@@ -823,7 +823,14 @@ cta
 Responsive media queries
 ************************************
 ***********************************/
-
+@media( max-width: 1024px ){
+  .header{
+    min-height:480px;
+  }
+  .bg-color{
+    min-height:445px;
+  }
+}
 @media (min-width: 768px) and (max-width: 980px) {
   .service-item, .blog-sec, .wrap-item, .loction-info {
     margin-bottom: 15px;
